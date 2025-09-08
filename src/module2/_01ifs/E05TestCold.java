@@ -9,11 +9,16 @@ public class E05TestCold {
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Is it cold?");
+
 		boolean isCold = scan.nextBoolean();
 
-		if (isCold);
+		if (isCold) {
 		System.out.println("Wear a coat");
 		System.out.println("Wear gloves");
+		}
 
+		if (!isCold) {
+		System.out.println("Go naked");
+		}
 	}
 }
